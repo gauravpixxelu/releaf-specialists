@@ -446,7 +446,7 @@ section.service-section .row {
     margin-top: -30px;
 }
 .accordion-button::after {
-    background-image : url(/images/homepage/plus.png) ;
+    background-image : url(/images/homepage/plus.png) !important;
     left: 0;
     position: absolute;
 }
