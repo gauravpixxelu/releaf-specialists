@@ -14,6 +14,7 @@ export default function Document() {
         <NextScript />
         <Footer />
       </body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     </Html>
   )
 }

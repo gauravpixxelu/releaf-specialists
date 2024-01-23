@@ -1,49 +1,69 @@
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'next/image';
 
-
 export default function Navigation() {
+
     return (
 
         <div className="navigation">
-            <Navbar expand="md">
-                <Navbar.Brand href="/">
+
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="/">
                     <Image
                         src="../images/logo.svg"
                         width={300}
                         height={60}
                         alt="Logo"
                     />
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
-                        <Nav.Link href="/consent-to-treatment">Consent to Treatment</Nav.Link>
-                        <Nav.Link href="/services">Services</Nav.Link>
-                        <NavDropdown title="Locations" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#">Pennsylvania Medical Marijuana Cards</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Ohio Medical Marijuana Cards</NavDropdown.Item>
-                            <NavDropdown.Item href="#">West Virginia Medical Marijuana Cards</NavDropdown.Item>
-                        </NavDropdown>
-                        <NavDropdown title="Resources" id="resources-nav-dropdown">
-                            <NavDropdown.Item href="#">Review Us</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Medical Marijuana 101</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Blog</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Testimonials</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Events</NavDropdown.Item>
-                        </NavDropdown>
-                        <NavDropdown title="Card Renewals" id="renewals-nav-dropdown">
-                            <NavDropdown.Item href="#">West Virginia</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Pennsylvania</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Ohio</NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link href="#">Contact</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/consent-to-treatment">Consent to Treatment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/services">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Locations
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Pennsylvania Medical Marijuana Cards</a></li>
+                                <li><a class="dropdown-item" href="#">Ohio Medical Marijuana Cards</a></li>
+                                <li><a class="dropdown-item" href="#">West Virginia Medical Marijuana Cards</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Review Us</a></li>
+                                <li><a class="dropdown-item" href="/medical-marijuana-education">Medical Marijuana 101</a></li>
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                <li><a class="dropdown-item" href="/events">Events</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Card Renewals
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/west-virginia">West Virginia</a></li>
+                                <li><a class="dropdown-item" href="/pennsylvania">Pennsylvania</a></li>
+                                <li><a class="dropdown-item" href="/ohio">Ohio</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact-us">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     );
 
