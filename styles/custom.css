@@ -109,7 +109,7 @@ li {
 }
 .big-heading {
     position: absolute;
-    font-size: 250px;
+    font-size: 250px !important;
     font-weight: 500;
     left: 0;
     right: 0;
@@ -118,12 +118,12 @@ li {
     line-height: 200px;
     text-align: center;
     text-transform: uppercase;
-    opacity: 0.05;
-    background: linear-gradient(180deg, #FFF 41.33%, rgba(255, 255, 255, 0.00) 82.93%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    z-index: 0;
+    opacity: 0.05 !important;
+    background: linear-gradient(180deg, #FFF 41.33%, rgba(255, 255, 255, 0.00) 82.93%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    z-index: 0 !important;
 }
 .big-heading.gray-big {
     opacity: 1;

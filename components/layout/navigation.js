@@ -32,9 +32,9 @@ export default function Navigation() {
                                 Locations
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link class="dropdown-item" href="#">Pennsylvania Medical Marijuana Cards</Link></li>
-                                <li><Link class="dropdown-item" href="#">Ohio Medical Marijuana Cards</Link></li>
-                                <li><Link class="dropdown-item" href="#">West Virginia Medical Marijuana Cards</Link></li>
+                                <li><Link class="dropdown-item" href="/pennsylvania">Pennsylvania Medical Marijuana Cards</Link></li>
+                                <li><Link class="dropdown-item" href="/ohio">Ohio Medical Marijuana Cards</Link></li>
+                                <li><Link class="dropdown-item" href="/west-virginia">West Virginia Medical Marijuana Cards</Link></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -54,9 +54,9 @@ export default function Navigation() {
                                 Card Renewals
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link class="dropdown-item" href="/west-virginia">West Virginia</Link></li>
-                                <li><Link class="dropdown-item" href="/pennsylvania">Pennsylvania</Link></li>
-                                <li><Link class="dropdown-item" href="/ohio">Ohio</Link></li>
+                                <li><Link class="dropdown-item" href="#">West Virginia</Link></li>
+                                <li><Link class="dropdown-item" href="#">Pennsylvania</Link></li>
+                                <li><Link class="dropdown-item" href="#">Ohio</Link></li>
                             </ul>
                         </li>
                         <li class="nav-item">
