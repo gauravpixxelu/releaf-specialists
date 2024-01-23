@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Banera';
-    src: url(../public/fonts/Banera.woff2);
+    src: url(/fonts/Banera.woff2);
 }
 :root {
     --heading-color: #214842;
@@ -203,7 +203,7 @@ li {
 
 /* ----- Footer CSS ----- */
 .site-footer {
-    background: var(--green-color) url(../public/images/leafs.svg) repeat;
+    background: var(--green-color) url(/images/leafs.svg) repeat;
     background-size: auto;
     background-position: center center;
     border-radius: 40px 40px 0 0;
@@ -251,7 +251,7 @@ li {
 
 /* ----- Homepage CSS ----- */
 .banner {
-    background: url(../public/images/homepage/home-banner.jpg) no-repeat;
+    background: url(/images/homepage/home-banner.jpg) no-repeat;
     background-size: cover;
     background-position: bottom center;
     min-height: 650px;
@@ -446,7 +446,7 @@ section.service-section .row {
     margin-top: -30px;
 }
 .accordion-button::after {
-    background-image : url(../public/images/homepage/plus.png) ;
+    background-image : url(/images/homepage/plus.png) ;
     left: 0;
     position: absolute;
 }
@@ -458,7 +458,7 @@ section.service-section .row {
     padding: 3px 30px;
 }
 .accordion-button:not(.collapsed)::after {
-    background-image : url(../public/images/homepage/minus.png) ;
+    background-image : url(/images/homepage/minus.png) ;
     outline: 0;
     box-shadow: none;
     left: 0;
@@ -585,7 +585,7 @@ section.service-section .row {
 
 /* inner-pages-banner */
 .inner-pages-banner {
-    background-image: url(../public/images/all-banner.jpg);
+    background-image: url(/images/all-banner.jpg);
     background-position: center;
     background-size: cover;
     min-height: 450px;
