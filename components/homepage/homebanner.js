@@ -1,19 +1,19 @@
-import { useState } from 'react';
-import { useRouter } from 'next/router';
+// import { useState } from 'react';
+// import { useRouter } from 'next/router';
 import Form from 'react-bootstrap/Form';
 import Image from "next/image";
 
 
 export default function HomeBanner() {
-  const router = useRouter();
-  const [selectState, setSelectState] = useState('');
+  // const router = useRouter();
+  // const [selectState, setSelectState] = useState('');
 
-  const handleSelectChange = (event) => {
-    const selectedValue = event.target.value;
-    setSelectState(selectedValue);
+  // const handleSelectChange = (event) => {
+  //   const selectedValue = event.target.value;
+  //   setSelectState(selectedValue);
 
-    router.push(`/${selectedValue}`);
-  };
+  //   router.push(`/${selectedValue}`);
+  // };
 
   return (
     <>
