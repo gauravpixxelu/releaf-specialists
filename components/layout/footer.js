@@ -15,6 +15,26 @@ function Footer() {
                   height={50}
                   alt="Logo"
                 />
+                <div className="social-media-footer">
+                <Image
+                  src="../images/footer/facebook.svg"
+                  width={50}
+                  height={50}
+                  alt="Logo"
+                />
+                <Image
+                  src="../images/footer/instagram.svg"
+                  width={50}
+                  height={50}
+                  alt="Logo"
+                />
+                <Image
+                  src="../images/footer/youtube.svg"
+                  width={50}
+                  height={50}
+                  alt="Logo"
+                />
+                </div>
               </div>
 
               <div className="col-md-3">

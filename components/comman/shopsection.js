@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ShopSection() {
     return (
         <>
-            <div className="shop-section">
+            <section className="shop-section">
                 <div className="container">
                     <h2 className="big-heading">Shop</h2>
                     <div className="row">
@@ -36,7 +36,7 @@ export default function ShopSection() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 }
