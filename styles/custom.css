@@ -454,7 +454,7 @@ section.service-section .row {
     font-family: Jost !important;
     font-weight: 400 !important;
     padding: 0 !important;
-    padding: 3px 30px !important;
+    padding: 20px 30px !important;
 }
 .accordion-button:not(.collapsed)::after {
     background-image : url(/images/homepage/minus.png) !important;
