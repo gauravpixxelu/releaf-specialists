@@ -58,7 +58,7 @@ export default function QualifyingSection() {
 
                             <div className="qualifying-box">
                                 <Image src="/images/servicepage/Service-4.jpg" width={235} height={226} alt="check" />
-                                <p>Cachexia "Wasting syndrome" (OH)</p>
+                                <p>Cachexia (Wasting syndrome (OH))</p>
                             </div>
 
                             <div className="qualifying-box">

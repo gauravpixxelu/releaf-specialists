@@ -9,7 +9,7 @@ export default function Service() {
                 <div className="container">
                 <div className="process-heading">
                         <h2>States We Service</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the</p>
                     </div>
                     <div className="row">
                         <div className="col-md-4">

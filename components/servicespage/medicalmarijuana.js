@@ -36,7 +36,7 @@ export default function MedicalMarijuana() {
                     <ul className="secound-service-listing">
                         <li>
                             <Image src="/images/homepage/check-light.svg" width={20} height={20} alt="check" />
-                            Pennsylvania residents are required to pay the state fee through the online profile set up with the PA Dept. of Health's MMP. The medical marijuana ID card will arrive in the mail within a few short days. Once your medical marijuana card arrives you will be legally permitted to purchase your medical marijuana prescription at your local dispensary.
+                            Pennsylvania residents are required to pay the state fee through the online profile set up with the PA Dept. of Health&#39;s MMP. The medical marijuana ID card will arrive in the mail within a few short days. Once your medical marijuana card arrives you will be legally permitted to purchase your medical marijuana prescription at your local dispensary.
                         </li>
                         <li>
                             <Image src="/images/homepage/check-light.svg" width={20} height={20} alt="check" />

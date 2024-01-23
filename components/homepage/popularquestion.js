@@ -27,7 +27,7 @@ export default function PopularQuestion() {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header>What's Your Revision Policy?</Accordion.Header>
+                                    <Accordion.Header>What is Your Revision Policy?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                     </Accordion.Body>
@@ -48,7 +48,7 @@ export default function PopularQuestion() {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="5">
-                                    <Accordion.Header>What's The Delivery Time?</Accordion.Header>
+                                    <Accordion.Header>What is The Delivery Time?</Accordion.Header>
                                     <Accordion.Body>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                     </Accordion.Body>

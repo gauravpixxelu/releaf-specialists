@@ -32,7 +32,7 @@ export default function TestimonialSlider() {
             <div>
                 <div className="slider-testimonial-box">
                     <Image src="/images/homepage/inverted.svg" width={42} height={30} alt="inverted" />
-                    <p class="page-description">They were fantastic! Super helpful, very quick and easy. They told me my card would take 10-15 business days to get to me, but it only took 3! I couldn't be more pleased. And they price match for future annual renewal costs!</p>
+                    <p class="page-description">They were fantastic! Super helpful, very quick and easy. They told me my card would take 10-15 business days to get to me, but it only took 3! I could not be more pleased. And they price match for future annual renewal costs!</p>
                     <div className="testimonial-listing">
                         <div className="test-name">
                             <span>Schenley Sullivan</span>
@@ -47,7 +47,7 @@ export default function TestimonialSlider() {
             <div>
                 <div className="slider-testimonial-box">
                     <Image src="/images/homepage/inverted.svg" width={42} height={30} alt="inverted" />
-                    <p class="page-description">They were fantastic! Super helpful, very quick and easy. They told me my card would take 10-15 business days to get to me, but it only took 3! I couldn't be more pleased. And they price match for future annual renewal costs!</p>
+                    <p class="page-description">They were fantastic! Super helpful, very quick and easy. They told me my card would take 10-15 business days to get to me, but it only took 3! I could not be more pleased. And they price match for future annual renewal costs!</p>
                     <div className="testimonial-listing">
                         <div className="test-name">
                             <span>Schenley Sullivan</span>
@@ -62,7 +62,7 @@ export default function TestimonialSlider() {
             <div>
                 <div className="slider-testimonial-box">
                     <Image src="/images/homepage/inverted.svg" width={42} height={30} alt="inverted" />
-                    <p class="page-description">They were fantastic! Super helpful, very quick and easy. They told me my card would take 10-15 business days to get to me, but it only took 3! I couldn't be more pleased. And they price match for future annual renewal costs!</p>
+                    <p class="page-description">They were fantastic! Super helpful, very quick and easy. They told me my card would take 10-15 business days to get to me, but it only took 3! I could not be more pleased. And they price match for future annual renewal costs!</p>
                     <div className="testimonial-listing">
                         <div className="test-name">
                             <span>Schenley Sullivan</span>
@@ -77,7 +77,7 @@ export default function TestimonialSlider() {
             <div>
                 <div className="slider-testimonial-box">
                     <Image src="/images/homepage/inverted.svg" width={42} height={30} alt="inverted" />
-                    <p class="page-description">They were fantastic! Super helpful, very quick and easy. They told me my card would take 10-15 business days to get to me, but it only took 3! I couldn't be more pleased. And they price match for future annual renewal costs!</p>
+                    <p class="page-description">They were fantastic! Super helpful, very quick and easy. They told me my card would take 10-15 business days to get to me, but it only took 3! I could not be more pleased. And they price match for future annual renewal costs!</p>
                     <div className="testimonial-listing">
                         <div className="test-name">
                             <span>Schenley Sullivan</span>
