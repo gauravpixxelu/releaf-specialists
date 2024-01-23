@@ -447,36 +447,35 @@ section.service-section .row {
 }
 .accordion-button::after {
     background-image : url(/images/homepage/plus.png) !important;
-    left: 0;
-    position: absolute;
+    left: 0 !important;
+    position: absolute !important;
 }
-
 .accordion-button {
-    font-family: Jost;
-    font-weight: 400;
-    padding: 0;
-    padding: 3px 30px;
+    font-family: Jost !important;
+    font-weight: 400 !important;
+    padding: 0 !important;
+    padding: 3px 30px !important;
 }
 .accordion-button:not(.collapsed)::after {
-    background-image : url(/images/homepage/minus.png) ;
-    outline: 0;
-    box-shadow: none;
-    left: 0;
-    position: absolute;
+    background-image : url(/images/homepage/minus.png) !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    left: 0 !important;
+    position: absolute !important;
 }
 .accordion-button:focus {
-    z-index: 3;
-    border-color: transparent;
-    outline: 0;
-    box-shadow: none;
+    z-index: 3 !important;
+    border-color: transparent !important;
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 .accordion-item {
-    border: 0;
-    border-bottom: 1px solid var(--yellow-color);
+    border: 0 !important;
+    border-bottom: 1px solid var(--yellow-color) !important;
 }
 .accordion-button:not(.collapsed) {
-    background: transparent;
-    border-bottom: 1px solid var(--green-color);
+    background: transparent !important;
+    border-bottom: 1px solid var(--green-color) !important;
 }
 .blog-section {
     background-color: var(--bg-light-color);
