@@ -31,7 +31,7 @@ export default function PennsyvaniaMedicalFour() {
                         <div className="col-md-3">
                             <div className="box-ohio-four">
                                 <Image src="/images/location/pool-4.png" width={80} height={80} alt="check" />
-                                <p>Releaf Specialists offers a FULL 100% money-back guarantee if we can't help you obtain your PA Medical Marijuana Card.</p>
+                                <p>Releaf Specialists offers a FULL 100% money-back guarantee if we can not help you obtain your PA Medical Marijuana Card.</p>
                             </div>
                         </div>
 
@@ -39,7 +39,7 @@ export default function PennsyvaniaMedicalFour() {
                         <div className="col-md-3">
                             <div className="box-ohio-four">
                                 <Image src="/images/location/pool-5.png" width={80} height={80} alt="check" />
-                                <p>We offer a FREE medical record review to see if you're eligible to be considered as an MMJ patient.</p>
+                                <p>We offer a FREE medical record review to see if you are eligible to be considered as an MMJ patient.</p>
                             </div>
                         </div>
                         <div className="col-md-3">
