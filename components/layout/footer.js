@@ -41,12 +41,11 @@ function Footer() {
                 <h4>Company</h4>
                 <ul>
                   <li><Link href="#">Intake form</Link></li>
-                  <li><Link href="#">Consent to Treatment</Link></li>
-                  <li><Link href="#">Requirements</Link></li>
-                  <li><Link href="#">Services</Link></li>
-                  <li><Link href="#">Locations</Link></li>
-                  <li><Link href="#">Resources</Link></li>
-                  <li><Link href="#">Card Renewals</Link></li>
+                  <li><Link href="/consent-to-treatment">Consent to Treatment</Link></li>
+                  <li><Link href="/requirements">Requirements</Link></li>
+                  <li><Link href="/services">Services</Link></li>
+                  <li><Link href="/blog">Blog</Link></li>
+                  <li><Link href="/contact-us">Contact Us</Link></li>
                 </ul>
               </div>
 
