@@ -2,7 +2,7 @@ import Form from 'react-bootstrap/Form';
 import Image from "next/image";
 
 export default function HomeBanner() {
- 
+  
   return (
     <>
       <section className="banner">

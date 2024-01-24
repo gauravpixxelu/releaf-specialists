@@ -32,6 +32,7 @@ export default function Navigation() {
                                 Locations
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
                                 <li><Link class="dropdown-item" href="/pennsylvania-medical-marijuana-cards">Pennsylvania Medical Marijuana Cards</Link></li>
                                 <li><Link class="dropdown-item" href="/ohio-medical-marijuana-cards">Ohio Medical Marijuana Cards</Link></li>
                                 <li><Link class="dropdown-item" href="/west-virginia-medical-marijuana-cards">West Virginia Medical Marijuana Cards</Link></li>

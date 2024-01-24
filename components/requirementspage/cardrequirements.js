@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -12,7 +11,7 @@ export default function CardRequirementSection() {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000 // Set the autoplay speed in milliseconds (e.g., 2000 for 2 seconds)  
+        autoplaySpeed: 2000
     };
     return (
         <>
@@ -57,7 +56,7 @@ export default function CardRequirementSection() {
 
                             <div className="qualifying-box">
                                 <Image src="/images/servicepage/Service-4.jpg" width={235} height={226} alt="check" />
-                                <p>Cachexia "Wasting syndrome" (OH)</p>
+                                <p>Cachexia (Wasting syndrome (OH))</p>
                             </div>
 
                             <div className="qualifying-box">

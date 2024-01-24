@@ -9,7 +9,7 @@ export default function Pricing() {
                     <h2 className="big-heading yellow-big">Pricing</h2>
                     <div className="process-heading">
                         <h2>Affordable Pricing Plan</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the</p>
                     </div>
                     <div className="row">
                         <div className="col-md-6">
