@@ -1,8 +1,20 @@
+import { useState } from 'react';
+import { useRouter } from 'next/router';
 import Form from 'react-bootstrap/Form';
 import Image from "next/image";
 
 export default function HomeBanner() {
   
+  const router = useRouter();
+  const [selectState, setSelectState] = useState('');
+
+  const handleSelectChange = (event) => {
+    const selectedValue = event.target.value;
+    setSelectState(selectedValue);
+
+    router.push(`/${selectedValue}`);
+  };
+
   return (
     <>
       <section className="banner">
@@ -14,11 +26,11 @@ export default function HomeBanner() {
             </div>
             <div className="form-banner-design">
               <h3>$150 For New Card | $100 For Card Renewals</h3>
-              <Form.Select aria-label="Default select example">
+              <Form.Select aria-label="Default select example" onChange={handleSelectChange} value={selectState || ''}>
                 <option value="" disabled hidden>Select State</option>
-                <option value="pennsylvania">Pennsylvania</option>
+                <option value="pennsylvania-medical-marijuana-cards">Pennsylvania</option>
                 <option value="ohio-medical-marijuana-cards">Ohio</option>
-                <option value="west-virginia">West Virginia</option>
+                <option value="west-virginia-medical-marijuana-cards">West Virginia</option>
               </Form.Select>
               <div className="email-listing">
                 <ul>

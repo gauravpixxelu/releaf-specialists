@@ -209,6 +209,7 @@ li {
     border-radius: 40px 40px 0 0;
     z-index: 9;
     position: relative;
+    margin-top: -65px;
 }
 .footer-top {
     padding: 50px 0;
@@ -293,7 +294,7 @@ li {
     font-weight: 600;
 }
 .form-banner-design select.form-select {
-    width: 550px;
+    max-width: 550px;
     height: 60px;
     margin: 25px auto;
     border: 1px solid;
@@ -303,7 +304,7 @@ li {
 .process-heading {
     z-index: 1;
     position: relative;
-    width: 800px;
+    max-width: 800px;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 40px;
@@ -318,7 +319,7 @@ li {
     font-weight: 600;
 }
 .box-step {
-    width: 300px;
+    max-width: 300px;
 }
 .all-design-button {
     display: flex;
@@ -387,7 +388,7 @@ li {
 }
 .service-section .process-heading p {
     color: var(--body-color);
-    width: 650px;
+    max-width: 650px;
     margin: 0 auto;
 }
 .service-section {
@@ -398,7 +399,7 @@ li {
     text-align: center;
 }
 section.service-section .row {
-    width: 850px;
+    max-width: 850px;
     margin: 0 auto;
 }
 .service-box h6 {
@@ -420,7 +421,7 @@ section.service-section .row {
     position: relative;
     border-radius: 30px;
     z-index: 0;
-    padding-top: 20px;
+    padding: 40px 0;
 }
 .still-question-section .row {
     align-items: center;
@@ -438,7 +439,7 @@ section.service-section .row {
 .butt-still-question a {
     background:var(--white-color);
     color: var(--green-color);
-    width: 180px;
+    max-width: 180px;
     text-align: center;
     border: 2px solid var(--light-green-color);
 }
@@ -454,7 +455,8 @@ section.service-section .row {
     font-family: Jost !important;
     font-weight: 400 !important;
     padding: 0 !important;
-    padding: 20px 30px !important;
+    padding: 5px 30px !important;
+    border-radius: 0 !important;
 }
 .accordion-button:not(.collapsed)::after {
     background-image : url(/images/homepage/minus.png) !important;
@@ -559,7 +561,7 @@ section.service-section .row {
     padding-bottom: 15px;
 }
 .testimonial-section .process-heading {
-    width: 850px;
+    max-width: 850px;
 }
 /* ----- Shop Section CSS ----- */
 .shop-section {
@@ -595,7 +597,7 @@ section.service-section .row {
     text-align: center;
 }
 .heading-inner-sec h1 {
-    width: 650px;
+    max-width: 650px;
     margin: 0 auto;
     color: var(--white-color);
 }
@@ -653,7 +655,7 @@ section.service-section .row {
     text-align: center;
 }
 .intakeform-content h2 {
-    width: 500px;
+    max-width: 500px;
     color: var(--green-color);
     margin: 0 auto 10px;
 }
@@ -662,10 +664,10 @@ section.service-section .row {
     margin-bottom: 30px;
 } 
 .service.heading-inner-sec h1 {
-    width: 800px;
+    max-width: 800px;
 }
 .service-media-section h2 {
-    width: 650px;
+    max-width: 650px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 40px;
@@ -675,7 +677,7 @@ section.service-section .row {
     padding: 100px 0;
 }
 .design-servicee-uty {
-    width: 460px;
+    max-width: 460px;
 }
 .design-servicee-uty h3 {
     color: var(--green-color);
@@ -708,7 +710,7 @@ ul.secound-service-listing {
     margin-top: 20px;
 }
 .diagnosis {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .inner-qualifying-page {
@@ -720,12 +722,12 @@ ul.secound-service-listing {
     background-color: var(--white-color);
     min-height: 300px;
     padding: 8px 10px 0 8px;
-    width: 250px !IMPORTANT;
+    max-width: 250px !IMPORTANT;
     text-align: center;
 }
 .qualifying-box p {
     color: var(--green-color);
-    width: 180px;
+    max-width: 180px;
     margin: 0 auto;
 }
 .testimonial-section .slick-dots li {
@@ -738,7 +740,7 @@ ul.secound-service-listing {
     margin-bottom: 30px;
 }
 .qualifying-heading {
-    width: 830px;
+    max-width: 830px;
     margin: 0 auto;
     text-align: center;
 }
@@ -749,7 +751,7 @@ ul.secound-service-listing {
     color: var(--green-color);
 }
 .inner-qualifying-page .row {
-    width: 600px;
+    max-width: 600px;
     margin: 40px auto;
 }
 
@@ -769,20 +771,20 @@ ul.secound-service-listing {
     justify-content: center;
 }
 .requirement-content h4 {
-    width: 250px;
+    max-width: 250px;
     color: var(--green-color);
 }
 .requirement-double-box img {
     border-radius: 7px;
 }
 .condition-section-full p {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto 30px;
     color: var(--green-color);  
 }
 .condition-section-full {
     padding: 100px 0;
-    width: 980px;
+    max-width: 980px;
     text-align: center;
     margin: 0 auto;
 }
@@ -793,14 +795,14 @@ ul.secound-service-listing {
     width: 100%;
 }
 .records-media {
-    width: 1150px;
+    max-width: 1150px;
 }
 .card-inner {
     border-radius: 30px;
     padding-bottom: 130px;
 }
 .card-inner .qualifying-heading {
-    width: 920px;
+    max-width: 920px;
 }
 
 /* ----  Medical Marijuana Education ---- */
@@ -868,12 +870,12 @@ strong.upcoming-parg {
     border-radius: 30px;
 }
 .main-renew-coder h2 {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto 20px;
 }
 .main-renew-coder {
     text-align: center;
-    width: 1020px;
+    max-width: 1020px;
     display: block;
     margin: 0 auto;
 }
@@ -942,12 +944,12 @@ a.spacing-section {
 }
 .releaf-sec-content p {
     color: var(--green-color);
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
 }
 .secound-releaf-coff {
     text-align: center;
-    width: 880px;
+    max-width: 880px;
     margin: 80px auto;
 }
 .images-pay-refeal {
@@ -1018,18 +1020,19 @@ a.spacing-section {
     width: 100%;
     margin-top: 15px;
 }
- label {
+label {
     display: block;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     color: var(--bg-label-color);
+    margin-bottom: 5px;
 }
 .form-testimonial-page.all-box-form {
     column-count: auto;
 }
- input {
+input {
     padding: 0 11px;
     width: 100% !important;
     height: 54px;
@@ -1040,7 +1043,7 @@ a.spacing-section {
     font-weight: 400;
     padding: 0 11px;
 }
- select {
+select {
     width: 100%;
     height: 54px;
     border-radius: 11px;
@@ -1106,7 +1109,7 @@ a.spacing-section {
     margin-bottom: 5px;
 }
 .form-testimonial-page.all-box-form {
-    width: 550px;
+    max-width: 550px;
     display: block;
     margin: 0 auto;
 }
@@ -1132,7 +1135,7 @@ a.spacing-section {
 }
 .main-review-content {
     text-align: center;
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
 }
 .box-review-design {
@@ -1275,4 +1278,11 @@ section.qualify-loction-five {
 }
 .blog-all-design {
     padding: 40px 0  80px;
+}
+input[type="file"] {
+    border: 0 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    height: auto !important;
 }

@@ -13,7 +13,21 @@ export default function QualifyCommonSection() {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000 // Set the autoplay speed in milliseconds (e.g., 2000 for 2 seconds)  
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+              breakpoint: 1000,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+            {
+              breakpoint: 550, 
+              settings: {
+                slidesToShow: 2,
+              }
+            }
+          ]
     };
     return (
         <>
