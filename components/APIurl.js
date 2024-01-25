@@ -1,0 +1,1 @@
+export const Baseurl = "https://pixxeluclients.com/php-dev/releaf-specialists/api/"
