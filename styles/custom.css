@@ -649,7 +649,7 @@ section.service-section .row {
 .intakeform-section {
     background-color: var(--bg-light-color);
     border-radius: 30px;
-    padding: 100px 0;
+    padding: 100px 0 150px;
 }
 .intakeform-content {
     text-align: center;
@@ -714,7 +714,7 @@ ul.secound-service-listing {
     margin: 0 auto;
 }
 .inner-qualifying-page {
-    padding: 70px 0;
+    padding: 70px 0 130px; 
     background-color: var(--bg-light-color);
 }
 .qualifying-box {
@@ -816,7 +816,7 @@ ul.secound-service-listing {
     margin-bottom: 30px;
 }
 .healthcare-section {
-    padding: 100px 0;
+    padding: 100px 0 150px;
     background: var(--bg-light-color);
     border-radius: 30px;
 }
@@ -835,7 +835,7 @@ ul.secound-service-listing {
 
 .upcoming-events {
     background-color: var(--white-color);
-    padding: 100px 0;
+    padding: 100px 0 150px;
 }
 .upcoming-main-coder {
     text-align: center;
@@ -904,7 +904,7 @@ a.spacing-section {
     gap: 10px;
 }
 .requirement-certification {
-    padding: 70px 0;
+    padding: 70px 0 140px;
 }
 .main-certification-coder h2 {
     color: var(--green-color);
@@ -934,7 +934,7 @@ a.spacing-section {
     margin-top: 20px;
 }
 .releaf-coder-section {
-    padding: 90px 0;
+    padding: 90px 0 140px; 
 }
 .releaf-sec-content {
     text-align: center;
@@ -1081,16 +1081,21 @@ select {
 }
 .contact-map-section iframe {
     border-radius: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 120px;
     margin-top: 20px;
 }
-
+.blog-box-design img {
+    width: 100%;
+}
 /* ---- Testimonials Css ---- */
 
 .main-feedback-heading {
     text-align: center;
     width: 58%;
     margin: 0 auto;
+}
+.feedback-section.contact-form-section{
+    padding: 90px 0 140px;
 }
 .feedback-section {
     padding: 90px 0;
@@ -1146,7 +1151,7 @@ select {
     margin-top: 25px;
 }
 .Fcabook-reviews-desgin {
-    padding: 100px 0;
+    padding: 100px 0 150px;
     background-color: var(--bg-light-color);
 }
 .facbook-review-two {
@@ -1244,7 +1249,7 @@ section.qualify-loction-five {
 .WeCanHelp-six {
     background-color: var(--yellow-color);
     border-radius: 30px;
-    padding: 90px 0 120px;
+    padding: 90px 0 140px;
 }
 .heading-wecanhelp {
     text-align: center;
@@ -1277,7 +1282,7 @@ section.qualify-loction-five {
     margin-top: 30px;
 }
 .blog-all-design {
-    padding: 40px 0  80px;
+    padding: 40px 0  140px;
 }
 input[type="file"] {
     border: 0 !important;
@@ -1285,4 +1290,92 @@ input[type="file"] {
     border-radius: 0 !important;
     background: transparent !important;
     height: auto !important;
+}
+.card-option {
+    padding-bottom: 140px;
+}
+.video-section-location-west iframe {
+    border-radius: 20px;
+}
+.video-refrance-heading {
+    text-align: center;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.video-refrance-heading h2 {
+    color: var(--green-color);
+}
+.good-goal-design {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--light-green-color);
+    padding: 20px 50px;
+    width: 98%;
+    margin: 0 auto;
+}
+.good-goal-design .white-btn {
+    background-color: var(--white-color);
+    color: var(--light-green-color);
+}
+.combine-coder p {
+    margin: 0;
+    color: var(--white-color);
+    font-weight: 600;
+}
+.location-Qrty .box-ohio-four {
+    text-align: center;
+    min-height: 175px;
+}
+.massage-inform p {
+    margin-top: 40px;
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
+.massage-inform  {
+   text-align: center;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+.cearte-ohio-heading p {
+    color: var(--white-color);
+    margin-bottom: 50px;
+}
+.last-virginia-section {
+    padding: 90px 0 150px;
+}
+.content-good-west {
+    margin-left: 30px;
+}
+.content-good-west h3 {
+    color: var(--green-color);
+}
+.listing-location.patient-listing {
+    margin-left: 30px;
+}
+
+.listing-location.patient-listing li.list-link-web {
+    margin-left: 37px;
+    font-weight: 600;
+    color: var(--green-color);
+}
+.inner-provide.patient-listing {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background:var(--bg-light-color);
+    padding: 20px;
+    border: 1px solid var(--green-color);
+    min-height: 213px;
+    border-radius: 10px;
+}
+.butt-double {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.west-beat-virginia img {
+    border-radius: 10px;
+}
+.last-virginia-section .row {
+    align-items: center;
 }
