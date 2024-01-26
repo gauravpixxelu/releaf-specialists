@@ -16,24 +16,26 @@ function Footer() {
                   alt="Logo"
                 />
                 <div className="social-media-footer">
-                <Image
+                <Link href="https://www.facebook.com/releafspecialists/" target="_blank"><Image
                   src="../images/footer/facebook.svg"
                   width={50}
                   height={50}
                   alt="Logo"
-                />
-                <Image
+                /></Link>
+                <Link href="https://www.instagram.com/releaf_specialists/" target="_blank"><Image
                   src="../images/footer/instagram.svg"
                   width={50}
                   height={50}
                   alt="Logo"
                 />
-                <Image
+                </Link>
+                <Link href="https://www.youtube.com/channel/UCA7fq7vKbGyWUYNrB-EMi6g" target="_blank"><Image
                   src="../images/footer/youtube.svg"
                   width={50}
                   height={50}
                   alt="Logo"
                 />
+                </Link>
                 </div>
               </div>
 
