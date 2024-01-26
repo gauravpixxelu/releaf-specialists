@@ -14,8 +14,8 @@ export default function WeCanHelpSection() {
                         <h3>Ohio Medical Marijuana Cards</h3>
                         <p>Getting your Ohio Medical Marijuana Card is simple. Releaf Specialists make the process easy and affordable. We offer FREE record reviews to see if you’re eligible. If you do not have any medical records, we can still help you obtain your Ohio Medical Marijuana Card!!</p>
                         <div className="butt-ohio help-button">
-                            <Link href="#" className="green-btn site-btn">Schedule Now</Link>
-                            <Link href="#" className="yellow-btn site-btn">Do you Qualify?</Link>
+                            <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
+                            <Link href="/do-you-qualify" className="yellow-btn site-btn">Do you Qualify?</Link>
                         </div>
                     </div>
                 </div>

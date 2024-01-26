@@ -17,7 +17,7 @@ export default function HealthcareSection() {
                                 <h2>Healthcare Provider Education</h2>
                                 <h6>Interested in learning more about the benefits of Medical Marijuana?</h6>
                                 <p>The experts at Releaf Specialists will help you answer your patients’ questions regarding medical Marijuana. Call us today to schedule an in-office Medical Marijuana education session.</p>
-                                <Link href="#" className="site-btn green-btn">Schedule an Appointment</Link>
+                                <Link href="/schedule-now" className="site-btn green-btn">Schedule an Appointment</Link>
                             </div>
                         </div>
                     </div>

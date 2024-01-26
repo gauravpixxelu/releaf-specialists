@@ -1091,6 +1091,8 @@ select {
 }
 .blog-box-design img {
     width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 /* ---- Testimonials Css ---- */
 
@@ -1383,4 +1385,7 @@ input[type="file"] {
 }
 .last-virginia-section .row {
     align-items: center;
+}
+.sheduler {
+    padding: 50px 0 120px;
 }

@@ -219,6 +219,9 @@
     .contact-secound-section {
         padding: 30px 0;
     }
+    iframe {
+        height: 350px;
+    }
     .content-information {
         padding: 20px;
         margin-bottom: 15px;
@@ -244,7 +247,6 @@
     .contact-map-section iframe {
         margin-bottom: 15px;
         margin-top: 15px;
-        height: 350px;
     }
     .social-media-footer {
         padding-top: 10px;
@@ -454,6 +456,41 @@
         width: 95%;
         margin: 0 auto !important;
     }
+    .location-Qrty .box-ohio-four {
+        min-height: auto;
+    }
+    .cearte-ohio-heading p {
+        margin-bottom: 10px;
+    }
+    .massage-inform p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .last-virginia-section {
+        padding: 30px 0 100px;
+    }
+    .west-beat-virginia img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .content-good-west {
+        margin-left: 0;
+    }
+    .listing-location.patient-listing {
+        margin-left: 0;
+    }
+    .inner-provide.patient-listing {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .cearte-ohio-heading {
+        width: 100%;
+    }
+    section.ohio-loction-four.location-Qrty .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 
@@ -478,4 +515,5 @@
         padding: 10px 20px;
         font-size: 14px;
     }
+    
 }

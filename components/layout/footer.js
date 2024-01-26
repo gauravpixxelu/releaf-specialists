@@ -40,7 +40,7 @@ function Footer() {
               <div className="col-md-3">
                 <h4>Company</h4>
                 <ul>
-                  <li><Link href="#">Intake form</Link></li>
+                  <li><Link href="/do-you-qualify">Intake form</Link></li>
                   <li><Link href="/consent-to-treatment">Consent to Treatment</Link></li>
                   <li><Link href="/requirements">Requirements</Link></li>
                   <li><Link href="/services">Services</Link></li>

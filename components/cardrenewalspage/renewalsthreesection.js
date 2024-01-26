@@ -19,8 +19,8 @@ export default function RequirementthreeSection() {
                                 <p>If you are a Veteran, please ask about our Veteran Discount. Due to Medical Marijuana still being federally illegal, insurance companies do not cover appointments and/or services associated with it.</p>
                                 <div className="triple-butt">
                                     <Link href="#" className="border-btn site-btn"> Ask a Question</Link>
-                                    <Link href="#" className="green-btn site-btn">Schedule Now</Link>
-                                    <Link href="#" className="yellow-btn site-btn">Do you Qualify?</Link>
+                                    <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
+                                    <Link href="/do-you-qualify" className="yellow-btn site-btn">Do you Qualify?</Link>
                                 </div>
                             </div>
                         </div>

@@ -31,7 +31,7 @@ export default function ShopSection() {
                         <div className="col-md-4">
                             <div className="shop-text">
                                 <h2>Finest selection of smoking Products & Accessories.</h2>
-                                <Link href="#" className="green-btn site-btn">Buy Now </Link>
+                                <Link href="https://justblazepgh.com/" className="green-btn site-btn" target="_blank">Buy Now </Link>
                             </div>
                         </div>
                     </div>
