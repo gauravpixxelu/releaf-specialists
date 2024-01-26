@@ -450,6 +450,10 @@
     .help-button {
         margin-top: 15px;
     }
+    .site-header .navigation .navbar .navbar-nav ul.dropdown-menu {
+        width: 95%;
+        margin: 0 auto !important;
+    }
 
 }
 

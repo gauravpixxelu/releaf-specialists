@@ -1041,7 +1041,10 @@ input {
     background: var(--white-color);
     color: var(--bg-form-color);
     font-weight: 400;
-    padding: 0 11px;
+    padding: 0 10px;
+    color: #000;
+    outline: 0;
+    font-size: 16px;
 }
 select {
     width: 100%;
@@ -1051,14 +1054,16 @@ select {
     background: var(--white-color);
     color: var(--bg-form-color);
     font-weight: 400;
-    padding: 0 11px;
+    padding: 0 10px;
+    font-size: 16px;
 }
 .contact-form-section textarea {
     width: 100% !important;
     border: 1px solid var(--bg-form-color);
     background: var(--white-color);
     border-radius: 11px;
-    padding: 10px 11px;
+    padding: 10px 10px;
+    font-size: 16px;
     height: 120px;
 }
 .contact-form-section textarea::placeholder {
