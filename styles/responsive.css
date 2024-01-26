@@ -260,6 +260,9 @@
     .footer-top {
         padding: 40px 0 20px;
     }
+    .site-footer {
+        margin-top: 0;
+    }
     .site-header .navigation .navbar .navbar-brand {
         padding-left: 10px;
     }
