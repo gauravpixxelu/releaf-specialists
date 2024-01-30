@@ -18,7 +18,7 @@ export default function OhioMedicalFiveCodeSection() {
                                 <p>House Bill 523, effective on September 8, 2016, legalized medical marijuana in Ohio. The Ohio Medical Marijuana Control Program allows patients with certain medical conditions to obtain an Ohio Medical marijuana card and shop at an approved licensed medical marijuana dispensary in Ohio.</p>
                                 <div className="butt-ohio">
                                     <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
-                                    <Link href="/do-you-qualify" className="yellow-btn site-btn">Do you Qualify?</Link>
+                                    <Link href="/do-you-qualify" className="yellow-btn site-btn">Do I Qualify?</Link>
                                 </div>
                             </div>
                         </div>

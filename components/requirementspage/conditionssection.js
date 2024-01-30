@@ -9,7 +9,7 @@ export default function ConditionsSection() {
                 <p>Patients suffering from at least one of the mentioned medical conditions may participate in the PA, OH, and WV Medical Marijuana Program.</p>
                 <div className="butt-doctor-service condition-req">
                         <Link href="#" className="green-btn site-btn">Get Certified</Link>
-                        <Link href="/do-you-qualify" className="yellow-btn site-btn">Do you Qualify?</Link>
+                        <Link href="/do-you-qualify" className="yellow-btn site-btn">Do I Qualify?</Link>
                     </div>
             </div>
         </div>

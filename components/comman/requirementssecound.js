@@ -26,7 +26,7 @@ export default function RequirementSecound() {
                                 <div className="requirement-content">
                                     <h4>Do I Qualify</h4>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    <Link href="/do-you-qualify" className="yellow-btn site-btn">Do you Qualify?</Link>
+                                    <Link href="/do-you-qualify" className="yellow-btn site-btn">Do I Qualify?</Link>
                                 </div>
                             </div>
                         </div>

@@ -16,26 +16,26 @@ function Footer() {
                   alt="Logo"
                 />
                 <div className="social-media-footer">
-                <Link href="https://www.facebook.com/releafspecialists/" target="_blank"><Image
-                  src="../images/footer/facebook.svg"
-                  width={50}
-                  height={50}
-                  alt="Logo"
-                /></Link>
-                <Link href="https://www.instagram.com/releaf_specialists/" target="_blank"><Image
-                  src="../images/footer/instagram.svg"
-                  width={50}
-                  height={50}
-                  alt="Logo"
-                />
-                </Link>
-                <Link href="https://www.youtube.com/channel/UCA7fq7vKbGyWUYNrB-EMi6g" target="_blank"><Image
-                  src="../images/footer/youtube.svg"
-                  width={50}
-                  height={50}
-                  alt="Logo"
-                />
-                </Link>
+                  <Link href="https://www.facebook.com/releafspecialists/" target="_blank"><Image
+                    src="../images/footer/facebook.svg"
+                    width={50}
+                    height={50}
+                    alt="Logo"
+                  /></Link>
+                  <Link href="https://www.instagram.com/releaf_specialists/" target="_blank"><Image
+                    src="../images/footer/instagram.svg"
+                    width={50}
+                    height={50}
+                    alt="Logo"
+                  />
+                  </Link>
+                  <Link href="https://www.youtube.com/channel/UCA7fq7vKbGyWUYNrB-EMi6g" target="_blank"><Image
+                    src="../images/footer/youtube.svg"
+                    width={50}
+                    height={50}
+                    alt="Logo"
+                  />
+                  </Link>
                 </div>
               </div>
 
@@ -79,6 +79,10 @@ function Footer() {
               <div className="col-md-3">
                 <h4>Subscribe to our Newsletter</h4>
                 <p>Receive a step by step guide on how to apply for your medical marijuana card.</p>
+                <div class="newsletter-form">
+                  <input type="email" class="newsletter-input" placeholder="Email address" />
+                    <button type="submit" class="newsletter-button">Submit</button>
+                </div>
               </div>
             </div>
           </div>

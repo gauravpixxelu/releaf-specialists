@@ -455,7 +455,7 @@ section.service-section .row {
     font-family: Jost !important;
     font-weight: 400 !important;
     padding: 0 !important;
-    padding: 20px 30px !important;
+    padding: 5px 30px !important;
     border-radius: 0 !important;
 }
 .accordion-button:not(.collapsed)::after {
@@ -1388,4 +1388,46 @@ input[type="file"] {
 }
 .sheduler {
     padding: 50px 0 120px;
+}
+
+
+
+.newsletter-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: var(--white-color);
+    border-radius: 4px;
+}
+.newsletter-input {
+    width: 100%;
+    padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    border: 1px solid var(--bg-light-color);
+    border-radius: 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    background: url(/images/email.png) no-repeat;
+    background-repeat: no-repeat;
+    background-position: 1rem center;
+}
+.newsletter-button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    padding: 0.5rem 1rem;
+    background-color: var(--light-green-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+.newsletter-button:hover {
+    background-color: var(--yellow-color);
+}
+.form-select:focus {
+    box-shadow: none!important;
 }

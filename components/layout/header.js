@@ -8,7 +8,7 @@ function Header() {
                 <Navigation />
                 <div className="header-btns">
                 <Link href="/schedule-now" className="green-btn site-btn">Schedule Now </Link>
-                <Link href="/do-you-qualify" className="yellow-btn site-btn">Do you Qualify? </Link>
+                <Link href="/do-you-qualify" className="yellow-btn site-btn">Do I Qualify? </Link>
                 </div>
             </header>
         </>
