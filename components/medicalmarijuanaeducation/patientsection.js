@@ -13,7 +13,7 @@ export default function PatientSection() {
                                 <h2>Patient Education</h2>
                                 <h6>What areas of Pittsburgh, PA do you serve?</h6>
                                 <p>We have clinics in Mount Washington, Robinson, Greensburg, Monroeville, North Hills, Washington, and Uniontown. Contact us about scheduling an appointment.</p>
-                                <Link href="/contact-us" className="site-btn green-btn">Learn more</Link>
+                                <Link href="/contact" className="site-btn green-btn">Learn more</Link>
                             </div>
                         </div>
                         <div className="col-md-5">

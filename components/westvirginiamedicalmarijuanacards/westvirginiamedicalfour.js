@@ -52,7 +52,7 @@ export default function WestVirginiaMedicalFour() {
                                 <p>Our goal is to help you get certified for your medical marijuana card.</p>
                                 <p>Contact us today to see how we can help you! 304-212-3472</p>
                             </div>
-                            <Link href="/schedule-now" className="white-btn site-btn">Schedule an Appointment</Link>
+                            <Link href="/schedule" className="white-btn site-btn">Schedule an Appointment</Link>
                         </div>
                     </div>
                 </div>

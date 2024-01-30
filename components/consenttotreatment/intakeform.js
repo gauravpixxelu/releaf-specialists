@@ -7,7 +7,7 @@ export default function IntakeForm() {
                     <div className="intakeform-content">
                         <h2>Please complete our Intake Form</h2>
                         <p>The following information must be completed to proceed with an appointment.</p>
-                        <Link href="/do-you-qualify" className="green-btn site-btn">Start</Link>
+                        <Link href="/am-i-eligible" className="green-btn site-btn">Start</Link>
                     </div>
                 </div>
             </section>

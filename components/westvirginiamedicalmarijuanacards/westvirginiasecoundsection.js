@@ -14,7 +14,7 @@ export default function WestVirginiMarijunaSecound() {
                                 <div className="requirement-content">
                                     <h4>WV Medical Marijuana Cards</h4>
                                     <p>Legal Access Made Easy in Pennsylvania, Ohio, & West Virginia</p>
-                                    <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
+                                    <Link href="/schedule" className="green-btn site-btn">Schedule Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ export default function WestVirginiMarijunaSecound() {
                                 <div className="requirement-content">
                                     <h4>Do I Qualify</h4>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    <Link href="/do-you-qualify" className="yellow-btn site-btn">Do I Qualify?</Link>
+                                    <Link href="/am-i-eligible" className="yellow-btn site-btn">Do I Qualify?</Link>
                                 </div>
                             </div>
                         </div>

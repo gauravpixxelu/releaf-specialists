@@ -57,7 +57,7 @@ export default function PennsyvaniaMedicalFour() {
                         <div className="col-md-3 information-location">
                             <div className="box-ohio-four colorfull">
                                 <p>Contact us today to see how we can help you get certified for your PA Medical Marijuana Card!</p>
-                                <Link href="/contact-us" className="white-btn site-btn">Contact Us</Link>
+                                <Link href="/contact" className="white-btn site-btn">Contact Us</Link>
                             </div>
                         </div>
 

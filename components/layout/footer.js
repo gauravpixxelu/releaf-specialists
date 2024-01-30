@@ -42,12 +42,12 @@ function Footer() {
               <div className="col-md-3">
                 <h4>Company</h4>
                 <ul>
-                  <li><Link href="/do-you-qualify">Intake form</Link></li>
-                  <li><Link href="/consent-to-treatment">Consent to Treatment</Link></li>
+                  <li><Link href="/am-i-eligible">Intake form</Link></li>
+                  <li><Link href="/consent">Consent to Treatment</Link></li>
                   <li><Link href="/requirements">Requirements</Link></li>
                   <li><Link href="/services">Services</Link></li>
                   <li><Link href="/blog">Blog</Link></li>
-                  <li><Link href="/contact-us">Contact Us</Link></li>
+                  <li><Link href="/contact">Contact Us</Link></li>
                 </ul>
               </div>
 

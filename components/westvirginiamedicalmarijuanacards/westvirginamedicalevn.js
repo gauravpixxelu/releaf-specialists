@@ -51,7 +51,7 @@ export default function WestVirginiaMedicalEven() {
                     </div>
                     <div className="massage-inform">
                         <p>A form medically appropriate for administration by vaporization or nebulization, excluding dry leaf or plant form unless dry leaf or plants forms become acceptable under rules adopted by the Bureau for Public Health</p>
-                        <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
+                        <Link href="/schedule" className="green-btn site-btn">Schedule Now</Link>
                     </div>
                 </div>
             </section>

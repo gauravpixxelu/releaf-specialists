@@ -16,8 +16,8 @@ export default function StillQuestion() {
                             <div className="coder-still-bing">
                                 <h4>Still have questions?</h4>
                                 <div class="butt-still-question">
-                                    <Link href="/contact-us" className="green-btn site-btn">Contact Us</Link>
-                                    <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
+                                    <Link href="/contact" className="green-btn site-btn">Contact Us</Link>
+                                    <Link href="/schedule" className="green-btn site-btn">Schedule Now</Link>
                                 </div>
                             </div>
                         </div>

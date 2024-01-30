@@ -34,7 +34,7 @@ export default function ProcessSection() {
                         </div>
                     </div>
                     <div className="all-design-button">
-                        <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
+                        <Link href="/schedule" className="green-btn site-btn">Schedule Now</Link>
                     </div>
                 </div>
             </section>

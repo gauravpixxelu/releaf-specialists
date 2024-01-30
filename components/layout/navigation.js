@@ -22,7 +22,7 @@ export default function Navigation() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <Link class="nav-link active" aria-current="page" href="/consent-to-treatment">Consent to Treatment</Link>
+                            <Link class="nav-link active" aria-current="page" href="/consent">Consent to Treatment</Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" href="/services">Services</Link>
@@ -43,7 +43,7 @@ export default function Navigation() {
                                 Resources
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link class="dropdown-item" href="/review">Review Us</Link></li>
+                                <li><Link class="dropdown-item" href="/review-us">Review Us</Link></li>
                                 <li><Link class="dropdown-item" href="/medical-marijuana-education">Medical Marijuana 101</Link></li>
                                 <li><Link class="dropdown-item" href="/blog">Blog</Link></li>
                                 <li><Link class="dropdown-item" href="/testimonials">Testimonials</Link></li>
@@ -61,7 +61,7 @@ export default function Navigation() {
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" href="/contact-us">Contact</Link>
+                            <Link class="nav-link" href="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>

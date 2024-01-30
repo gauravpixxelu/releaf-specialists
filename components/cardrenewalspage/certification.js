@@ -31,7 +31,7 @@ export default function RequirementListingSection() {
                                 When you receive your new card, you will be asked to update your file at the dispensary.
                             </li>
                         </ul>
-                        <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
+                        <Link href="/schedule" className="green-btn site-btn">Schedule Now</Link>
                         <div className="certification-box">
                             <p>For WV Residents: The WV Office of Medical Cannabis issues you an email to begin the recertification process. You are required to renew your medical card via this email. If you have changed your residency, you must notify Releaf Specialists.</p>
                         </div>

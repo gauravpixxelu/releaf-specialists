@@ -23,7 +23,7 @@ export default function CardStepSection() {
                                 <p>If you are a Veteran, please ask about our Veteran Discount. Due to Medical Marijuana still being federally illegal, insurance companies do not cover appointments and/or services associated with it.</p>
                             </div>
                             <div className="triple-butt">
-                                <Link href="/schedule-now" className="green-btn site-btn">Schedule Now</Link>
+                                <Link href="/schedule" className="green-btn site-btn">Schedule Now</Link>
                             </div>
                         </div>
                     </div>
