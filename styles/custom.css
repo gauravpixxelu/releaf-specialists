@@ -1431,3 +1431,24 @@ input[type="file"] {
 .form-select:focus {
     box-shadow: none!important;
 }
+.blog-detail .service.heading-inner-sec h1 {
+    max-width: 1000px;
+}
+.blog-detail-sec {
+    padding: 50px 0 120px;
+}
+.blog-detail-box {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 12px 24px 0 hsl(0deg 0% 0% / 5%);
+    padding: 50px;
+}
+.blog-detail-box > img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 350px;
+    object-fit: cover;
+}
+.blog-detail-box a {
+    color: #e2bb52;
+}
