@@ -52,8 +52,8 @@ export default function TestimonialSlider() {
         <Slider {...settings}>
 
             {testimonial.map(testimonial => (
-                <div>
-                    <div className="slider-testimonial-box" key={testimonial.id}>
+                <div key={testimonial.id}>
+                    <div className="slider-testimonial-box" >
                         <Image src="/images/homepage/inverted.svg" width={42} height={30} alt="inverted" />
                         <p class="page-description">{testimonial.experience}</p>
                         <div className="testimonial-listing">
