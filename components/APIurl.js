@@ -1,1 +1,1 @@
-export const Baseurl = "https://pixxeluclients.com/php-dev/releaf-specialists/api/"
+export const APIurl = "https://pixxeluclients.com/php-dev/releaf-specialists/api/"
