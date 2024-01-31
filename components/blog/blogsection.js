@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { APIurl } from '../APIurl';
 
 export default function BlogSection() {
   const [blogs, setBlogs] = useState([]);
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch(`${apiUrl}blog-list`);
+        const response = await fetch(`${APIurl}blog-list`);
         const data = await response.json();
         setBlogs(data.data);
       } catch (error) {

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { APIurl } from '../APIurl';
 
 export default function TestimoialsSendusSection() {
 
@@ -10,7 +11,6 @@ export default function TestimoialsSendusSection() {
     const [image, setImage] = useState(null);
     const [checkbox, setCheckbox] = useState('');
     const [text, setText] = useState('');
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   
     const handleSubmit = async e => {
       e.preventDefault();
@@ -26,7 +26,7 @@ export default function TestimoialsSendusSection() {
        };
          
       try {
-        const response = await fetch(`${apiUrl}create-testimonial`, {
+        const response = await fetch(`${APIurl}create-testimonial`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data)

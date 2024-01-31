@@ -4,16 +4,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from "next/image";
+import { APIurl } from "../APIurl";
 
 
 export default function TestimonialSlider() {
     const [testimonial, setTestimonial] = useState([]);
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
     useEffect(() => {
         const fetchTestimonial = async () => {
             try {
-                const response = await fetch(`${apiUrl}all-testimonial-list`);
+                const response = await fetch(`${APIurl}all-testimonial-list`);
                 const data = await response.json();
                 setTestimonial(data.data);
             } catch (error) {
