@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Testimonial from "@/components/comman/testimonial";
-import TestimoialsFeedbackSection from "@/components/testimonials.js/feedback";
-import TestimoialsSendusSection from "@/components/testimonials.js/sendussection";
-import TestimoialsBannerSection from "@/components/testimonials.js/testimonialbanner";
+import TestimoialsFeedbackSection from "@/components/testimonials/feedback";
+import TestimoialsSendusSection from "@/components/testimonials/sendussection";
+import TestimoialsBannerSection from "@/components/testimonials/testimonialbanner";
 
 export default function Testimonials() {
   return (

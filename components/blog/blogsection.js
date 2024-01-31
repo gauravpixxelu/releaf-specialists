@@ -3,11 +3,12 @@ import Link from 'next/link';
 
 export default function BlogSection() {
   const [blogs, setBlogs] = useState([]);
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch('https://pixxeluclients.com/php-dev/releaf-specialists/api/blog-list');
+        const response = await fetch(`${apiUrl}blog-list`);
         const data = await response.json();
         setBlogs(data.data);
       } catch (error) {

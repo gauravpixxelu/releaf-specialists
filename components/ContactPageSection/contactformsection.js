@@ -17,6 +17,7 @@ export default function ContactFormSection() {
     const [find_us, setFinfUs] = useState('');
     const [message, setMessage] = useState('');
     const [text, setText] = useState('');
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   
     const handleSubmit = async e => {
       e.preventDefault();
@@ -38,7 +39,7 @@ export default function ContactFormSection() {
        };
   
       try {
-        const response = await fetch('https://pixxeluclients.com/php-dev/releaf-specialists/api/create-email-contact', {
+        const response = await fetch(`${apiUrl}create-email-contact`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data)

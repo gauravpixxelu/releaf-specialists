@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export default function BlogDetail({ blog }) {
+  
+
   return (
     <>
 
@@ -33,10 +35,11 @@ export default function BlogDetail({ blog }) {
 }
 
 export async function getServerSideProps(context) {
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   const { slug } = context.query;
 
   try {
-    const response = await fetch(`https://pixxeluclients.com/php-dev/releaf-specialists/api/blog-detail/?slug=${slug}`);
+    const response = await fetch(`${apiUrl}blog-detail/?slug=${slug}`);
     const data = await response.json();
 
     if (data.data.length > 0) {
