@@ -451,11 +451,14 @@ section.service-section .row {
     left: 0 !important;
     position: absolute !important;
 }
+.accordion-item h2.accordion-header {
+    line-height: inherit;
+}
 .accordion-button {
     font-family: Jost !important;
     font-weight: 400 !important;
     padding: 0 !important;
-    padding: 5px 30px !important;
+    padding: 20px 30px !important;
     border-radius: 0 !important;
 }
 .accordion-button:not(.collapsed)::after {
@@ -473,6 +476,7 @@ section.service-section .row {
 }
 .accordion-item {
     border: 0 !important;
+    border-radius: 0 !important;
     border-bottom: 1px solid var(--yellow-color) !important;
 }
 .accordion-button:not(.collapsed) {
