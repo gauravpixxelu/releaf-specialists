@@ -44,7 +44,7 @@ export default function Navigation() {
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link class="dropdown-item" href="/review-us">Review Us</Link></li>
-                                <li><Link class="dropdown-item" href="/medical-marijuana-education">Medical Marijuana 101</Link></li>
+                                <li><Link class="dropdown-item" href="/education">Medical Marijuana 101</Link></li>
                                 <li><Link class="dropdown-item" href="/blog">Blog</Link></li>
                                 <li><Link class="dropdown-item" href="/testimonials">Testimonials</Link></li>
                                 <li><Link class="dropdown-item" href="/events">Events</Link></li>

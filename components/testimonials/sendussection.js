@@ -62,7 +62,7 @@ export default function TestimoialsSendusSection() {
                             <input type="text" id="companyName" name="companyName" value={name} onChange={e => setName(e.target.value)} required/>
 
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" value={email} onChange={e => setEmail(e.target.value)} required/>
+                            <input type="email" id="email" name="email" value={email} onChange={e => setEmail(e.target.value)} />
 
                             <label for="location">Location</label>
                             <input type="text" id="location" name="location" value={location} onChange={e => setLocation(e.target.value)} required/>
