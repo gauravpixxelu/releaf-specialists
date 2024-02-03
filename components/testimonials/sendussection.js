@@ -50,7 +50,7 @@ export default function TestimoialsSendusSection() {
 
     return (
         <>
-            <div className="feedback-section contact-form-section">
+            <div className="feedback-section contact-form-section" id="click-scroll">
                 <div className="container">
                     <div className="main-sendus-heading">
                         <h2>Send us a <span className="light-green-txt">Testimonial</span></h2>

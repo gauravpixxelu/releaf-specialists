@@ -192,6 +192,7 @@ li {
     border-radius: 0;
     border: 0;
     box-shadow: 0 4px 14px 0 hsl(0deg 0% 0% / 13%);
+    margin-top: 10px !important;
 }
 .site-header .navigation .navbar .navbar-nav ul.dropdown-menu li a {
     padding: 10px;
@@ -508,6 +509,10 @@ section.service-section .row {
 }
 .blog-box-design a {
     color: var(--green-color);
+    font-weight: 600;
+}
+.blog-box-design a:hover{
+    color: var(--yellow-color);
 }
 .blog-box-design {
     margin-top: 30px;

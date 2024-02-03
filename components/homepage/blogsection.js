@@ -13,27 +13,27 @@ export default function BlogSection() {
                     <div className="col-md-4">
                         <div className="blog-box-design">
                             <Image src="/images/homepage/blog-1.jpg" width={410} height={230} alt="check" />
-                            <h6>What is Terpinolene? Terpinolene Effects, Benefits & Strains</h6>
-                            <p>Photo by Olia Danilevich Science is continually discovering a whole new batch of health benefits from the countless compounds found in cannabis.</p>
-                            <Link href="#" className="focess-butt">Read More</Link>
+                            <h6>Top Tips for Choosing the Right Medical Marijuana Card Provider</h6>
+                            <p>"Accessing quality care begins with choosing the right providers for medical marijuana—a decision that holds the key to getting your medical Marijuana card."</p>
+                            <Link href="/blogs/top-tips-for-choosing-the-right-medical-marijuana-card-provider" className="focess-butt">Read More</Link>
                         </div>
                     </div>
 
                     <div className="col-md-4">
                         <div className="blog-box-design">
                             <Image src="/images/homepage/blog-2.jpg" width={410} height={230} alt="check" />
-                            <h6>What is Terpinolene? Terpinolene Effects, Benefits & Strains</h6>
-                            <p>Photo by Olia Danilevich Science is continually discovering a whole new batch of health benefits from the countless compounds found in cannabis.</p>
-                            <Link href="#" className="focess-butt">Read More</Link>
+                            <h6>Renewing Your Medical Marijuana Card in Pennsylvania</h6>
+                            <p>Patients need to renew their medical card every year. You are not required to visit the same doctor as the first certification. An email will be sent out 60 days before your card expires, letting you know it’s time to renew.</p>
+                            <Link href="/blogs/renewing-your-medical-marijuana-card-in-pennsylvania" className="focess-butt">Read More</Link>
                         </div>
                     </div>
 
                     <div className="col-md-4">
                         <div className="blog-box-design">
                             <Image src="/images/homepage/blog-3.jpg" width={410} height={230} alt="check" />
-                            <h6>What is Terpinolene? Terpinolene Effects, Benefits & Strains</h6>
-                            <p>Photo by Olia Danilevich Science is continually discovering a whole new batch of health benefits from the countless compounds found in cannabis.</p>
-                            <Link href="#" className="focess-butt">Read More</Link>
+                            <h6>Veteran and Disability Discounts Available to Ohio Patients</h6>
+                            <p>Ohio Patients can receive a 50% discount on the annual $50 certification fee if they qualify under veteran or disability status.</p>
+                            <Link href="/blogs/veteran-and-disability-discounts-available-to-ohio-patients" className="focess-butt">Read More</Link>
                         </div>
                     </div>
                 </div>
