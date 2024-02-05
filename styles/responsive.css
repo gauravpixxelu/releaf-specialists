@@ -498,9 +498,6 @@
 }
 
 
-@media screen and (min-width:768px) and (max-width:1024px) {
-             
-}
 
 
 @media screen and (min-width:1200px) and (max-width:1600px) {
@@ -564,3 +561,325 @@
   
   
   
+
+
+
+
+
+
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+             
+    .whyus-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .big-heading {
+        font-size: 0px !important;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+    .why-us-section {
+        padding-top: 50px;
+    }
+    h2 {
+        font-size: 38px !important;
+        line-height: 50px;
+    }
+    .box-pricing-detai {
+        margin-bottom: 10px;
+    }
+    .service-section {
+        padding: 60px 0;
+    }
+    .shop-section .shop-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .shop-section .col-md-4 {
+        width: 50%;
+    }
+    .shop-section .col-md-4:last-child {
+        width: 95%;
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 48px !important;
+        line-height: 62px;
+    }
+    h3 {
+        font-size: 30px !important;
+        line-height: 42px;
+    }
+    .col-md-4 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .site-header .header-btns {
+        gap: 9px;
+        width: 36%;
+    }
+    
+    .popularquestion-section .col-md-6:last-child {
+        order: 1;
+        position: relative;
+    }
+    .accordion-design {
+        margin-top: 20px;
+    }
+    .popularquestion-section .col-md-6:first-child {
+        order: 2;
+    }
+    .still-question-section .col-md-6 {
+        width: 50%;
+    }
+    .popularquestion-section .col-md-6 img {
+        width: 100%;
+        height: 100%;
+    }d
+    .accordion-button {
+        font-size: 22px;
+    }
+    .popularquestion-section {
+        padding: 80px 0;
+    }
+    .blog-section {
+        padding: 50px 0;
+    }
+    .shop-section {
+        padding: 70px 0;
+    }
+
+    .footer-top .row {
+        column-count: 2;
+        display: block;
+    }
+    
+    .footer-top .row .col-md-3 {
+        width: 100%;
+        margin-bottom: 46px;
+    }
+    section.service-section .col-md-4 {
+        width: 32%;
+        margin-bottom: 30px;
+    }
+    .service-section .all-design-button {
+        padding: 0px 0;
+    }
+    .pricing-section {
+        padding: 60px 0;
+    }
+    .testimonial-section {
+        padding: 60px 0 80px;
+    }
+    button.navbar-toggler {
+        right: 34px;
+        position: relative;
+    }
+    .site-header .navigation .navbar .navbar-collapse {
+        position: absolute;
+        background: #fff;
+        top: 88px;
+        width: 700px;
+        padding: 26px;
+        z-index: 999;
+        height: 100vh;
+    }
+    .patient-section-treatment {
+        padding: 60px 0;
+    }
+    .image-medical-code img {
+        width: 100%;
+        height: 100%;
+    }
+    .service-media-section .row {
+        align-items: center;
+    }
+    .service-media-section {
+        padding: 60px 0;
+    }
+    .inner-pages-banner {
+        min-height: 300px;
+    }
+    .diagnosis-section {
+        padding: 60px 0;
+    }
+    .intakeform-content h2 {
+        max-width: 100%;
+    }
+    .inner-qualifying-page .col-md-4 {
+        width: 33%;
+    }
+    .requirement-secound .col-md-6 {
+        margin-bottom: 20px;
+    }
+    .requirement-secound {
+        padding: 60px 0;
+    }
+    .cearte-ohio-heading {
+        width: 100%;
+    }
+    .ohio-loction-four .col-md-3 {
+        width: 50%;
+    }
+    section.ohio-loction-four {
+        padding: 60px 0;
+    }
+    .location-img-map img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    section.ohio-loction-five {
+        padding: 60px 0;
+    }
+
+    .heading-wecanhelp {
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+    .box-decide-pages-helper p {
+        width: 90%;
+    }
+    section.ohio-loction-four .col-md-2 {
+        width: 33%;
+    }
+    .last-virginia-section .col-md-5 {
+        width: 100%;
+    }
+    
+    .last-virginia-section .col-md-7 {
+        width: 100%;
+    }
+    .west-beat-virginia img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .content-good-west {
+        margin-left: 0px;
+    }
+    .listing-location.patient-listing {
+        margin-left: 0px;
+    }
+    .last-virginia-section .col-md-4 {
+        width: 100%;
+        margin: 0;
+    }
+    .inner-provide.patient-listing {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .butt-double {
+        margin-top: 40px;
+    }
+    .review-secound .col-md-4 {
+        width: 33%;
+    }
+    .review-secound {
+        padding: 60px 0;
+    }
+    .Fcabook-reviews-desgin {
+        padding: 60px 0 120px;
+    }
+    .review-two-section.Fcabook-reviews-desgin .col-md-6 {
+        width: 50%;
+    }
+    .facbook-review-two {
+        width: 100%;
+    }
+    .healthcare-section.patient .col-md-7 {
+        width: 100%;
+        order: 2;
+    }
+    .healthcare-section.patient .col-md-5 {
+        width: 100%;
+        order: 1;
+    }
+    .healthcare-section .col-md-7 {
+        width: 100%;
+    }
+    .healthcare-section .col-md-5 {
+        width: 100%;
+    }
+    .healthcare-section-img img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    .healthcare-section {
+        padding: 60px 0 60px;
+    }
+    .patient {
+        padding: 60px 0 120px;
+    }
+    .Lotions-video-section {
+        padding: 50px 0;
+    }
+    .images-requirment-doc img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 27px;
+    }
+    .requirement-renew {
+        padding: 50px 0;
+    }
+    .requirement-three-section {
+        padding: 60px 0;
+    }
+    .main-feedback-heading {
+        width: 90%;
+    }
+    .feedback-section {
+        padding: 50px 0;
+    }
+    .feedback-section.contact-form-section {
+        padding: 60px 0 130px;
+    }
+    .main-sendus-heading {
+        width: 92%;
+        margin: 0 auto 30px;
+    }
+    .form-testimonial-page.all-box-form {
+        max-width: 90%;
+    }
+    h6 {
+        font-size: 16px !important;
+    }
+    .upcoming-events {
+        padding: 60px 0 100px;
+    }
+    .images-pay-refeal img {
+        width: 100%;
+    }
+    section.renewing-secound .col-md-5 {
+        width: 100%;
+    }
+    section.renewing-secound .col-md-7 {
+        width: 100%;
+    }
+    .renewing-secound {
+        padding: 0px 0 60px;
+    }
+    .releaf-coder-section {
+        padding: 60px 0 130px;
+    }
+    .renewing-secound .col-md-8 {
+        width: 100%;
+    }
+    .card-option {
+        margin-bottom: 75px;
+    }
+    .contact-form-section .col-md-4 {
+        width: 100%;
+    }
+    .contact-form-section .col-md-8 {
+        width: 100%;
+    }
+    .contact-secound-section {
+        padding: 50px 0;
+    }
+
+  }
+
