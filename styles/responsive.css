@@ -494,7 +494,22 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-
+    .popularquestion-section .col-md-6:first-child {
+        order: 2;
+        margin-top: 20px;
+    }
+    .service-section .col-md-4 {
+        width: 50%;
+    }
+    .shop-section .col-md-4 {
+        width: 50%;
+    }
+    .shop-section .col-md-4 img {
+        height: 100%;
+    }
+    .shop-section .col-md-4:last-child {
+        width: 100%;
+    }
 }
 
 
