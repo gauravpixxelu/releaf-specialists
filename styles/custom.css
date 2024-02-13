@@ -83,6 +83,20 @@ span.light-green-txt {
 a {
     text-decoration: none !important;
 }
+.vsss {
+    text-align: center;
+}
+.vsss button {
+    padding: 0 30px !important;
+    font-size: var(--button-font-size) !important;
+    color: var(--white-color) !important;
+    font-weight: 600 !important;
+    border-radius: 7px !important;
+    background: var(--light-green-color) !important;
+    border: 0 !important;
+    display: inline-block  !important;
+    font-family: 'Jost' !important;
+}
 .site-btn {
     padding: var(--button-padding);
     font-size: var(--button-font-size);
@@ -175,7 +189,7 @@ li {
     justify-content: flex-end;
 }
 .site-header .navigation .navbar .navbar-nav {
-    gap: 40px;
+    gap: 25px;
 }
 .site-header .navigation .navbar .navbar-nav a {
     padding: 0;

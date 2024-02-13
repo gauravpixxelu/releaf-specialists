@@ -27,15 +27,18 @@ export default function Navigation() {
                         <li class="nav-item">
                             <Link class="nav-link" href="/services">Services</Link>
                         </li>
+                        <li class="nav-item">
+                            <Link class="nav-link" href="/intake">Intake Form</Link>
+                        </li>
                         <li class="nav-item dropdown">
                             <Link class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Locations
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                                <li><Link class="dropdown-item" href="/pennsylvania-medical-marijuana-cards">Pennsylvania Medical Marijuana Cards</Link></li>
-                                <li><Link class="dropdown-item" href="/ohio-medical-marijuana-cards">Ohio Medical Marijuana Cards</Link></li>
-                                <li><Link class="dropdown-item" href="/west-virginia-medical-marijuana-cards">West Virginia Medical Marijuana Cards</Link></li>
+                                <li><Link class="dropdown-item" href="/pammj">Pennsylvania Medical Marijuana Cards</Link></li>
+                                <li><Link class="dropdown-item" href="/ohiomedicalmarijuanacards">Ohio Medical Marijuana Cards</Link></li>
+                                <li><Link class="dropdown-item" href="/wv-mmj">West Virginia Medical Marijuana Cards</Link></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -55,9 +58,9 @@ export default function Navigation() {
                                 Card Renewals
                             </Link>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link class="dropdown-item" href="/west-virginia">West Virginia</Link></li>
-                                <li><Link class="dropdown-item" href="/pennsylvania">Pennsylvania</Link></li>
-                                <li><Link class="dropdown-item" href="/ohio">Ohio</Link></li>
+                                <li><Link class="dropdown-item" href="/renewals-wv">West Virginia</Link></li>
+                                <li><Link class="dropdown-item" href="/blog/renew-registration/">Pennsylvania</Link></li>
+                                <li><Link class="dropdown-item" href="/card-renewal-ohio">Ohio</Link></li>
                             </ul>
                         </li>
                         <li class="nav-item">

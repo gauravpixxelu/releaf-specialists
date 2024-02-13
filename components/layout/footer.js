@@ -42,7 +42,7 @@ function Footer() {
               <div className="col-md-3">
                 <h4>Company</h4>
                 <ul>
-                  <li><Link href="/am-i-eligible">Intake form</Link></li>
+                  <li><Link href="/intake">Intake form</Link></li>
                   <li><Link href="/consent">Consent to Treatment</Link></li>
                   <li><Link href="/requirements">Requirements</Link></li>
                   <li><Link href="/services">Services</Link></li>
@@ -81,7 +81,7 @@ function Footer() {
                 <p>Receive a step by step guide on how to apply for your medical marijuana card.</p>
                 <div class="newsletter-form">
                   <input type="email" class="newsletter-input" placeholder="Email address" />
-                    <button type="submit" class="newsletter-button">Submit</button>
+                  <button type="submit" class="newsletter-button">Submit</button>
                 </div>
               </div>
             </div>

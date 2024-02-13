@@ -28,9 +28,9 @@ export default function HomeBanner() {
               <h3>$150 For New Card | $100 For Card Renewals</h3>
               <Form.Select aria-label="Default select example" onChange={handleSelectChange} value={selectState || ''}>
                 <option value="" disabled hidden>Select State</option>
-                <option value="pennsylvania-medical-marijuana-cards">Pennsylvania</option>
-                <option value="ohio-medical-marijuana-cards">Ohio</option>
-                <option value="west-virginia-medical-marijuana-cards">West Virginia</option>
+                <option value="pammj">Pennsylvania</option>
+                <option value="ohiomedicalmarijuanacards">Ohio</option>
+                <option value="wv-mmj">West Virginia</option>
               </Form.Select>
               <div className="email-listing">
                 <ul>

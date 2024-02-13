@@ -520,11 +520,14 @@
         padding: 20px 2%;
     }
     .site-header .navigation .navbar .navbar-nav {
-        gap: 25px;
+        gap: 15px;
     }
     .site-header .navigation .navbar .navbar-brand img {
         width: 220px;
         height: 45px;
+    }
+    .site-header .navigation .navbar .navbar-nav a {
+        font-size: 12px;
     }
     .site-btn {
         padding: 10px 20px;
