@@ -83,7 +83,7 @@ export default function FaqPopularQuestion() {
                                     <Accordion.Body>
                                         <ul>
                                             <li>Flower or Buds</li>
-                                            <li> You can vaporize "vape" your flower, or use it to make other products</li>
+                                            <li> You can vaporize (vape) your flower, or use it to make other products</li>
                                             <li>You CANNOT smoke a bowl, joint, bong, or any other combustible method</li>
                                             <li>Combusting marijuana is illegal in Pennsylvania under the rules of the Medical Marijuana Program</li>
                                             <li>Oral Consumables</li>
@@ -98,7 +98,7 @@ export default function FaqPopularQuestion() {
                                             <li>Commonly obtained through distillation units</li>
                                             <li>Can also be vaporized</li>
                                             <li>Traditional edibles like gummy bears or brownies are not offered at the dispensary, however, you are able to use distillate or RSO to infuse your own food product.</li>
-                                            <li>Vaporizer Cartridge "Vape Pen" and Pods</li>
+                                            <li>Vaporizer Cartridge (Vape Pen) and Pods</li>
                                             <li>Large variety of vaporizer cartridges are available</li>
                                             <li>Most come in a universal cartridge referred to as a 510 battery</li>
                                             <li>Refers to the thread count on the cartridges</li>
