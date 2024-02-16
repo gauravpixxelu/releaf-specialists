@@ -517,9 +517,22 @@ section.service-section .row {
     color: var(--green-color);
     font-weight: 600;
 }
+.blog-box-design {
+    margin-bottom: 40px;
+}
+.blog-box-design div {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .blog-box-design p {
     color: var(--body-color);
     font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .blog-box-design a {
     color: var(--green-color);
@@ -713,7 +726,7 @@ section.service-section .row {
     margin-top: 20px;
 }
 ul.secound-service-listing {
-    margin: 50px 0;
+    margin: 35px 0 !important;
 }
 .butt-doctor-service {
     display: flex;
@@ -1006,7 +1019,7 @@ a.spacing-section {
     margin: 0 auto;
 }
 .contact-secound-section {
-    padding: 90px 0;
+    padding: 90px 0 30px;
 }
 .content-information {
     padding: 30px;
@@ -1474,4 +1487,67 @@ input[type="file"] {
 }
 .blog-detail-box a {
     color: #e2bb52;
+}
+.accordion-body ul li {
+    list-style: circle !important;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+.faq-banner-cap h1 {
+    max-width: 75% !important;
+}
+
+
+body .accordion-coder-able .accordion-item {
+    border: 1px solid !important;
+    margin: 19px 0px;
+    padding: 0 7px 0;
+    border-radius: 10px !important;
+}
+
+body .accordion-coder-able .accordion-item h2 button {
+    font-size: 20px !important;
+    padding: 15px 15px !important;
+}
+
+body .accordion-coder-able ::after {
+    right: 11px;
+}
+.faq-page-design {
+    padding: 60px 0 120px;
+}
+
+
+
+
+.line-clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    transition: height 300ms;
+  }
+  
+  .truncate-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .images-collapes-coder img {
+    width: 100%;
+    height: 100%;
+}
+.description-agree h3 {
+    text-align: center;
+    font-size: 20px !important;
+    margin: 0;
+}
+.description-agree p {
+    text-align: center;
+}
+.contact-form-section .col-md-4 {
+    order: 2;
+}
+.contact-form-section {
+    margin-bottom: 50px;
 }

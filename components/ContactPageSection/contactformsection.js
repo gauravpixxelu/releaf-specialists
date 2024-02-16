@@ -105,10 +105,7 @@ export default function ContactFormSection() {
                                 </ul>
                                 <p>Certification appointments are available Monday-Friday between 9 AM to 7 PM.</p>
                             </div>
-                            <div className="content-information">
-                                <h3>* DISCLAIMER * </h3>
-                                <p>By submitting this form, you agree to be contacted via phone, text, or email.</p>
-                            </div>
+                           
                         </div>
                         <div className="col-md-8">
                             <div className="content-form-info">

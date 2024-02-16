@@ -9,16 +9,16 @@
         overflow-x: hidden;
     }
     h1 {
-        font-size: 44px !important;
-        line-height: 50px;
+        font-size: 36px !important;
+        line-height: 42px;
     }
     h2 {
         font-size: 30px !important;
         line-height: 36px;
     }
     h3 {
-        font-size: 30px !important;
-        line-height: 36px;
+        font-size: 26px !important;
+        line-height: 32px;
     }
     h4 {
         font-size: 24px !important;
@@ -510,12 +510,56 @@
     .shop-section .col-md-4:last-child {
         width: 100%;
     }
+    body .accordion-coder-able .accordion-item h2 button {
+        font-size: 15px !important;
+        padding: 15px 15px !important;
+    }
+    .faq-banner-cap h1 {
+        font-size: 25px !important;
+        line-height: 34px !important;
+    }
+
 }
 
 
 
 
 @media screen and (min-width:1200px) and (max-width:1600px) {
+    .image-medical-code img {
+        width: 100%;
+    }
+    h1 {
+        font-size: 50px !important;
+        line-height: 62px;
+    }
+    h3 {
+        font-size: 32px !important;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 35px !important;
+        line-height: 50px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .healthcare-section-img img {
+        width: 100%;
+    }
+    .process-heading {
+        width: 51%;
+    }
+    .images-requirment-doc img {
+        width: 100%;
+    }
+   
+    .whyus-image img {
+        width: 100%;
+        height: auto;
+    }
+    .big-heading {
+        font-size: 150px !important;
+    }
     .site-header {
         padding: 20px 2%;
     }
@@ -533,6 +577,11 @@
         padding: 10px 20px;
         font-size: 14px;
     }
+
+
+    
+
+
     
 }
 

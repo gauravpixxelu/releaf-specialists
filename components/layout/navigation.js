@@ -51,6 +51,7 @@ export default function Navigation() {
                                 <li><Link class="dropdown-item" href="/blog">Blog</Link></li>
                                 <li><Link class="dropdown-item" href="/testimonials">Testimonials</Link></li>
                                 <li><Link class="dropdown-item" href="/events">Events</Link></li>
+                                <li><Link class="dropdown-item" href="/faq">Faq</Link></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">

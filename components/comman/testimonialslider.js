@@ -47,6 +47,13 @@ export default function TestimonialSlider() {
             }
         ]
     };
+
+    
+
+
+
+
+
     return (
 
         <Slider {...settings}>
@@ -61,6 +68,7 @@ export default function TestimonialSlider() {
                                 <span>{testimonial.name}</span>
                                 <p>{testimonial.season} - {testimonial.location}</p>
                             </div>
+                            
                         </div>
                     </div>
                 </div>

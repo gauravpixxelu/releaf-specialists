@@ -18,7 +18,7 @@ export default function RequirementthreeSection() {
                                 <p>You will have the opportunity to schedule with the assistance of Live Agent or via our website using the “Schedule Now” feature. Simply select the state, type of appointment, and pick the date/time you would like the MMJ Physician to call. Finalize the appointment by reviewing the terms and conditions and issuing payment.</p>
                                 <p>If you are a Veteran, please ask about our Veteran Discount. Due to Medical Marijuana still being federally illegal, insurance companies do not cover appointments and/or services associated with it.</p>
                                 <div className="triple-butt">
-                                    <Link href="#" className="border-btn site-btn"> Ask a Question</Link>
+                                    <Link href="/faq" className="border-btn site-btn"> Ask a Question</Link>
                                     <Link href="/schedule" className="green-btn site-btn">Schedule Now</Link>
                                     <Link href="/am-i-eligible" className="yellow-btn site-btn">Do I Qualify?</Link>
                                 </div>
