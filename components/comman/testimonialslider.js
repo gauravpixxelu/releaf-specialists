@@ -48,11 +48,32 @@ export default function TestimonialSlider() {
         ]
     };
 
-    
+    const splitContent = (content, limit) => {
+        if (content.length <= limit) {
+            return content;
+        }
 
+        const words = content.split(' ');
+        let result = '';
+        let count = 0;
 
+        for (let i = 0; i < words.length; i++) {
+            if (count + words[i].length <= limit) {
+                result += words[i] + ' ';
+                count += words[i].length;
+            } else {
+                break;
+            }
+        }
 
+        return result.trim();
+    };
 
+    const [showFullContent, setShowFullContent] = useState({});
+
+    const toggleContent = (testimonialId) => {
+        setShowFullContent({ ...showFullContent, [testimonialId]: !showFullContent[testimonialId] });
+    };
 
     return (
 
@@ -62,13 +83,19 @@ export default function TestimonialSlider() {
                 <div key={testimonial.id}>
                     <div className="slider-testimonial-box" >
                         <Image src="/images/homepage/inverted.svg" width={42} height={30} alt="inverted" />
-                        <p class="page-description">{testimonial.experience}</p>
+                        <p class="page-description">
+                            {testimonial.experience.length <= 40 ? testimonial.experience : (showFullContent[testimonial.id] ? testimonial.experience : splitContent(testimonial.experience, 130))}
+                            {testimonial.experience.length > 40 && (
+                                <span onClick={() => toggleContent(testimonial.id)}>
+                                    {showFullContent[testimonial.id] ? ' Read Less' : ' Read More'}
+                                </span>
+                            )}
+                        </p>
                         <div className="testimonial-listing">
                             <div className="test-name">
                                 <span>{testimonial.name}</span>
                                 <p>{testimonial.season} - {testimonial.location}</p>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
                 </div>

@@ -1551,3 +1551,12 @@ body .accordion-coder-able ::after {
 .contact-form-section {
     margin-bottom: 50px;
 }
+.slick-slide {
+    height: 100%;
+}
+.test-name {
+    min-height: 75px;
+}
+.test-name p {
+    margin: 0;
+}
